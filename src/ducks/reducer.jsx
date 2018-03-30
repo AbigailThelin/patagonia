@@ -1,3 +1,4 @@
+
 const initialState = {
     cart: []
 }
@@ -24,16 +25,16 @@ export function removeItem(id){
 //reducers
 
 export default function reducer(state = initialState, action){
-    switch(action.type){
-        case: ADD_TO_CART:
-            if(){
-
-            }
-            break;
-        case: REMOVE_ITEM:
-            if(){
-
-            }
-            break;
-    }
+//     switch(action.type){
+//         case: ADD_TO_CART:
+//             if(id = 2){
+//                 console.log('hey')
+//             }
+//             break;
+//         case: REMOVE_ITEM:
+//             if(id = 3){
+//                 console.log('wrong')
+//             }
+//             break;
+//     }
 }
